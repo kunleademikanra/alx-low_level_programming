@@ -30,7 +30,6 @@ int _atoi(char *s)
 				h = (h * 10) - (s[i] - '0');
 			else
 				h = (s[i] - '0') * -1;
-			
 			if (s[i + 1] < 48 || s[i + 1] > 57)
 				break;
 		}
